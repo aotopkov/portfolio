@@ -4,3 +4,10 @@
     line-height: 30px;
     color: #fff;
 }
+
+@media screen and (max-width: 1280px) {
+    .main__info {
+        font-size: calc(16px + (20 - 16) * (100vw - 320px) / (1280 - 320));
+    }
+    
+}
