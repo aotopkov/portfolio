@@ -20,6 +20,7 @@
 @import url(../blocks/tech/__cards/tech__cards.css);
 @import url(../blocks/tech/__card/tech__card.css);
 @import url(../blocks/tech/__сard-info/tech__card-info.css);
+@import url(../blocks/tech/__card/_learn/tech__card_learn.css);
 @import url(../blocks/tech/__card/_inactive/tech__card_inactive.css);
 @import url(../blocks/tech/__logo/tech__logo.css);
 @import url(../blocks/tech/__name/tech__name.css);
