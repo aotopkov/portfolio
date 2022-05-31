@@ -1,0 +1,4 @@
+.tech__card_inactive {
+    opacity: 0.2;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.7);
+}

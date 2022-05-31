@@ -1,0 +1,12 @@
+.project__screen {
+    display: block;
+    width: 300px;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: top;
+    margin: 25px auto 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+    transition: .3s ease-in-out;
+    
+}

@@ -1,0 +1,13 @@
+.main__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .main__text {
+        max-width: 90%;
+        margin: auto;
+    }
+    
+}

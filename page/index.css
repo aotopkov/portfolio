@@ -1,0 +1,37 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/main-page/main-page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav-list/header__nav-list.css);
+@import url(../blocks/header/__nav-item/header__nav-item.css);
+@import url(../blocks/header/__nav-item/_inop/header__nav-item_inop.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__logo/main__logo.css);
+@import url(../blocks/main/__text/main__text.css);
+@import url(../blocks/main/__name/main__name.css);
+@import url(../blocks/main/__info/main__info.css);
+@import url(../blocks/main/__link/main__link.css);
+@import url(../blocks/main/__photo/main__photo.css);
+
+@import url(../blocks/tech/__title/tech__title.css);
+@import url(../blocks/tech/__cards/tech__cards.css);
+@import url(../blocks/tech/__card/tech__card.css);
+@import url(../blocks/tech/__сard-info/tech__card-info.css);
+@import url(../blocks/tech/__card/_inactive/tech__card_inactive.css);
+@import url(../blocks/tech/__logo/tech__logo.css);
+@import url(../blocks/tech/__name/tech__name.css);
+
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__list/project__list.css);
+@import url(../blocks/project/__link/project__link.css);
+@import url(../blocks/project/__name/project__name.css);
+@import url(../blocks/project/__info/project__info.css);
+@import url(../blocks/project/__info-link/project__info-link.css);
+@import url(../blocks/project/__screen/project__screen.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

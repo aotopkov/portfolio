@@ -1,0 +1,15 @@
+.project__link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    transition: all .4s ease-in-out;
+    
+}
+
+.project__link:hover {
+    transform: scale(102%)
+}
+
+.project__link:hover .project__screen {
+    filter: blur(2px);
+}

@@ -1,0 +1,10 @@
+.project__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    width: 90%;
+    min-height: 100px;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.main {
+    width: 90%;
+    margin: 10% auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
