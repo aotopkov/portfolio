@@ -1,6 +1,6 @@
 .main {
     width: 90%;
-    margin: 10% auto;
+    margin: 10% auto 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
