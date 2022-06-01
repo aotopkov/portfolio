@@ -12,15 +12,17 @@
 
 <body class="page">
     <header class="header">
-        <nav class="header__nav-bar">
+        <nav>
+            <input type="checkbox" id="menu" class="header__menu"><label class="header__menu-label">Меню</label>
             <ul class="header__nav-list">
                 <li class="header__nav-item">Frontend</li>
                 <li class="header__nav-item header__nav-item_inop">Travel</li>
                 <li class="header__nav-item header__nav-item_inop">Aviation</li>
                 <li class="header__nav-item">CSS Tips</li>
+                <li class="header__nav-item"><a href="#contacts" class="header__nav-link">Контакты</a></li>
             </ul>
         </nav>
-    </header> 
+    </header>
     <main class="main-page">
         <section class="main">
             <div class="main__text">
@@ -124,7 +126,7 @@
                 </li>
                 <li class="project__item">
                     <a href="" class="project__link" target="_blank">
-                        <h3 class="project__name">"Научить учиться"</h3>
+                        <h3 class="project__name">"Научиться учиться"</h3>
                         <p class="project__info">Первый учебный проект в рамках обучание по статической вёрстке сайтов.
                             Применение Flex layout</p>
                         <img src="./image/project/how-to-learn-plus.jpg" alt="скриншот сайта Научить учиться"
@@ -145,9 +147,13 @@
     </main>
     <footer class="footer">
         <div class="footer__container">
-            <ul class="footer__contacts">Контакты:
-                <li class="footer__contact">Telegramm</li>
-                <li class="footer__contact">E-mail</li>
+            <ul class="footer__contacts" id="contacts">
+                <li class="footer__contact">Контакты:</li>
+                <li class="footer__contact"><a href="https://t.me/aotopkov" class="footer__contact-link"
+                        target="_blank"><img src="./image/telegram.svg" alt="" class="footer__contact-logo">Telegram</a>
+                </li>
+                <li class="footer__contact"><a href="mailto:aotopkov@gmail.com" class="footer__contact-link"
+                        target="_blank"><img src="./image/email.png" alt="" class="footer__contact-logo">Email</a></li>
             </ul>
             <p class="footer__copyright">&copy; Отопков Александр 2022</p>
         </div>

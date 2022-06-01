@@ -1,0 +1,20 @@
+.header__menu-label {
+    visibility: hidden;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .header__menu-label {
+        display: block;
+        visibility: visible;
+        padding: 20px 0;
+        text-align: center;
+        
+
+    }
+}
+

@@ -1,7 +1,7 @@
 .header__nav-list {
     max-width: 1280px;
     width: 80%;
-    min-height: 150px;
+    min-height: 100px;
     padding: 0;
     margin: 0 auto -70px;
     list-style: none;
@@ -10,12 +10,23 @@
     flex-wrap: wrap;
     flex-direction: row;
     column-gap: 50px;
-    row-gap: 25px;
+    row-gap: 15px;
+    transition: all .3s ease-in-out;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 900px) {
     .header__nav-list {
-        display: none;
+        width: 100%;
+        padding: 10px 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        flex-direction: column;
+        top: -100%;
+        
+    }
+
+    .header__menu:checked ~ .header__nav-list {
+        top: 60px;
     }
     
 }

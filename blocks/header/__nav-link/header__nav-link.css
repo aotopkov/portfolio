@@ -1,0 +1,10 @@
+.header__nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    transition: all .1s;
+}
+
+.header__nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
