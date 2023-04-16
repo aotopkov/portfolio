@@ -1,0 +1,8 @@
+.gallery__container {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 500px));
+    gap: 5px;
+    grid-auto-flow: dense;
+}

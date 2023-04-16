@@ -1,0 +1,17 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/fonts.css);
+@import url(../../blocks/page/page.css);
+@import url(../../blocks/page/_travel/page_travel.css);
+
+@import url(../../blocks/gallery/gallery.css);
+@import url(../../blocks/gallery/__title/gallery__title.css);
+@import url(../../blocks/gallery/__container/gallery__container.css);
+@import url(../../blocks/gallery/__item/gallery__item.css);
+@import url(../../blocks/gallery/__card/gallery__card.css);
+
+@import url(../../blocks/footer/footer.css);
+@import url(../../blocks/footer/__container/footer__container.css);
+@import url(../../blocks/footer/__contacts/footer__contacts.css);
+@import url(../../blocks/footer/__contact-link/footer__contact-link.css);
+@import url(../../blocks/footer/__contact-logo/footer__contact-logo.css);
+@import url(../../blocks/footer/__copyright/footer__copyright.css);
